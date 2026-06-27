@@ -1,0 +1,262 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Prakash | Senior Business Analyst</title>
+    <link href="https://fonts.googleapis.com/css2?family=Inter:wght@400;600;700;800&display=swap" rel="stylesheet">
+    <style>
+        * { margin: 0; padding: 0; box-sizing: border-box; }
+        body { font-family: 'Inter', sans-serif; background: #f8fafc; color: #1e293b; line-height: 1.6; }
+        .container { max-width: 1000px; margin: 0 auto; padding: 0 20px; }
+        
+        /* Header */
+        header {
+            background: linear-gradient(135deg, #1e3a5f 0%, #2563eb 100%);
+            color: white; padding: 60px 0 40px;
+        }
+        header h1 { font-size: 2.5rem; font-weight: 800; margin-bottom: 8px; }
+        header .title { font-size: 1.2rem; opacity: 0.9; margin-bottom: 16px; }
+        header .location { opacity: 0.75; font-size: 0.95rem; }
+        .badge {
+            display: inline-block; background: rgba(255,255,255,0.15);
+            padding: 4px 14px; border-radius: 20px; font-size: 0.85rem; margin: 4px 4px 0 0;
+        }
+        .contact-links { margin-top: 20px; }
+        .contact-links a {
+            color: white; text-decoration: none; margin-right: 20px;
+            font-size: 0.95rem; opacity: 0.85;
+        }
+        .contact-links a:hover { opacity: 1; text-decoration: underline; }
+
+        /* Sections */
+        section { padding: 40px 0; border-bottom: 1px solid #e2e8f0; }
+        h2 { font-size: 1.6rem; font-weight: 700; margin-bottom: 24px; color: #1e3a5f; }
+        h3 { font-size: 1.1rem; font-weight: 600; margin-bottom: 6px; color: #2563eb; }
+
+        /* Summary */
+        .summary p { font-size: 1.05rem; color: #475569; }
+
+        /* Skills Grid */
+        .skills-grid {
+            display: grid; grid-template-columns: repeat(auto-fit, minmax(280px, 1fr)); gap: 16px;
+        }
+        .skill-card {
+            background: white; border-radius: 12px; padding: 20px;
+            box-shadow: 0 1px 3px rgba(0,0,0,0.08); border: 1px solid #e2e8f0;
+        }
+        .skill-card h4 { font-weight: 600; margin-bottom: 10px; color: #1e3a5f; }
+        .skill-card .tag {
+            display: inline-block; background: #eff6ff; color: #2563eb;
+            padding: 4px 12px; border-radius: 16px; font-size: 0.85rem; margin: 3px;
+        }
+
+        /* Experience */
+        .exp-item { margin-bottom: 28px; }
+        .exp-header { display: flex; justify-content: space-between; align-items: baseline; flex-wrap: wrap; }
+        .exp-company { font-weight: 700; font-size: 1.1rem; color: #1e3a5f; }
+        .exp-date { color: #64748b; font-size: 0.9rem; }
+        .exp-role { color: #2563eb; font-weight: 600; margin: 4px 0 10px; }
+        .exp-item ul { padding-left: 20px; color: #475569; }
+        .exp-item li { margin-bottom: 6px; }
+
+        /* Education */
+        .edu-table { width: 100%; border-collapse: collapse; background: white; border-radius: 12px; overflow: hidden; box-shadow: 0 1px 3px rgba(0,0,0,0.08); }
+        .edu-table th, .edu-table td { padding: 12px 16px; text-align: left; border-bottom: 1px solid #e2e8f0; }
+        .edu-table th { background: #1e3a5f; color: white; font-weight: 600; }
+        .edu-table tr:last-child td { border-bottom: none; }
+
+        /* Footer */
+        footer {
+            text-align: center; padding: 30px 0;
+            color: #94a3b8; font-size: 0.9rem;
+        }
+
+        @media (max-width: 600px) {
+            header h1 { font-size: 1.8rem; }
+            .exp-header { flex-direction: column; }
+        }
+    </style>
+</head>
+<body>
+
+<header>
+    <div class="container">
+        <h1>Prakash</h1>
+        <div class="title">Senior Business Analyst</div>
+        <div class="location">📍 Pune, India</div>
+        <div style="margin-top:12px;">
+            <span class="badge">6+ Years Experience</span>
+            <span class="badge">BA + QA</span>
+            <span class="badge">eCommerce</span>
+            <span class="badge">Agile/Scrum</span>
+        </div>
+        <div class="contact-links">
+            <a href="https://linkedin.com/in/your-profile">🔗 LinkedIn</a>
+            <a href="mailto:your.email@example.com">✉️ Email</a>
+        </div>
+    </div>
+</header>
+
+<!-- Summary -->
+<section>
+    <div class="container summary">
+        <h2>Professional Summary</h2>
+        <p>Practising Business Analyst with <strong>6+ years</strong> of experience in Business Analysis and Quality Assurance. Well-versed in requirement gathering with a strong commitment to driving business growth and achieving organizational goals. Expert in <strong>Agile/Scrum</strong> methodologies, <strong>Jira</strong>, <strong>Balsamiq</strong>, <strong>SQL</strong>, and <strong>UAT</strong> testing. Proven track record in delivering eCommerce platforms and web-based ticketing systems.</p>
+    </div>
+</section>
+
+<!-- Skills -->
+<section>
+    <div class="container">
+        <h2>Key Skills</h2>
+        <div class="skills-grid">
+            <div class="skill-card">
+                <h4>📋 Elicitation & Analysis</h4>
+                <span class="tag">Interviews</span>
+                <span class="tag">Workshops</span>
+                <span class="tag">Document Analysis</span>
+                <span class="tag">Prototyping</span>
+                <span class="tag">Gap Analysis</span>
+                <span class="tag">Impact Analysis</span>
+                <span class="tag">MoSCoW Prioritization</span>
+            </div>
+            <div class="skill-card">
+                <h4>📝 Documentation</h4>
+                <span class="tag">BRD</span>
+                <span class="tag">FRD</span>
+                <span class="tag">User Stories</span>
+                <span class="tag">Acceptance Criteria</span>
+                <span class="tag">RTM</span>
+                <span class="tag">Test Cases</span>
+            </div>
+            <div class="skill-card">
+                <h4>🛠️ Tools</h4>
+                <span class="tag">Jira</span>
+                <span class="tag">Confluence</span>
+                <span class="tag">Balsamiq</span>
+                <span class="tag">Draw.io</span>
+                <span class="tag">SQL Developer</span>
+                <span class="tag">Postman</span>
+                <span class="tag">TestRail</span>
+                <span class="tag">BrowserStack</span>
+                <span class="tag">JMeter</span>
+            </div>
+            <div class="skill-card">
+                <h4>🧪 Testing Expertise</h4>
+                <span class="tag">Functional Testing</span>
+                <span class="tag">Integration Testing</span>
+                <span class="tag">System Testing</span>
+                <span class="tag">End-to-End Testing</span>
+                <span class="tag">UAT</span>
+                <span class="tag">Regression Testing</span>
+                <span class="tag">Mobile Testing</span>
+                <span class="tag">Cross Browser Testing</span>
+            </div>
+            <div class="skill-card">
+                <h4>🤝 Interpersonal</h4>
+                <span class="tag">Stakeholder Management</span>
+                <span class="tag">Team Guidance</span>
+                <span class="tag">Cross-functional Collaboration</span>
+                <span class="tag">Excellent Communication</span>
+                <span class="tag">Presentation Skills</span>
+            </div>
+            <div class="skill-card">
+                <h4>📊 Methodology</h4>
+                <span class="tag">Agile (Scrum)</span>
+                <span class="tag">Waterfall</span>
+                <span class="tag">Sprint Planning</span>
+                <span class="tag">Daily Stand-ups</span>
+                <span class="tag">Retrospectives</span>
+                <span class="tag">Backlog Grooming</span>
+            </div>
+        </div>
+    </div>
+</section>
+
+<!-- Experience -->
+<section>
+    <div class="container">
+        <h2>Experience</h2>
+
+        <div class="exp-item">
+            <div class="exp-header">
+                <span class="exp-company">Aloha Technology Pvt Ltd</span>
+                <span class="exp-date">Pune</span>
+            </div>
+            <div class="exp-role">Business Analyst — Feb 2023 to Present</div>
+            <ul>
+                <li>Collaborated with Product Owners and SMEs to gather and analyze business requirements for eCommerce platforms (Product Catalogue Management & Payment Gateway Integrations).</li>
+                <li>Defined and prioritized requirements using MoSCoW and Business Value methods.</li>
+                <li>Translated business features into User Stories and Acceptance Criteria in Jira backlog.</li>
+                <li>Conducted backlog grooming sessions and participated in all Scrum ceremonies.</li>
+                <li>Collaborated with UI/UX designers, Developers, and QA teams for accurate implementation.</li>
+                <li>Performed Functional, Integration, and End-to-End Testing during UAT.</li>
+            </ul>
+        </div>
+
+        <div class="exp-item">
+            <div class="exp-header">
+                <span class="exp-company">Aloha Technology Pvt Ltd</span>
+                <span class="exp-date">Pune</span>
+            </div>
+            <div class="exp-role">Business Analyst — Dec 2021 to Jan 2023</div>
+            <ul>
+                <li>Gathered and analyzed business requirements for a web-based ticketing system.</li>
+                <li>Translated requirements into User Stories and Acceptance Criteria.</li>
+                <li>Coordinated with Development and QA teams to clarify requirements.</li>
+                <li>Supported UAT and validated booking and payment scenarios.</li>
+            </ul>
+        </div>
+
+        <div class="exp-item">
+            <div class="exp-header">
+                <span class="exp-company">Aloha Technology Pvt Ltd</span>
+                <span class="exp-date">Pune</span>
+            </div>
+            <div class="exp-role">Quality Assurance Engineer — Jul 2019 to Nov 2021</div>
+            <ul>
+                <li>Prepared Test Scenarios, Positive and Negative Test Cases using TestRail.</li>
+                <li>Reported bugs and executed test cases on Jira.</li>
+                <li>Performed Smoke, Functional, Integration, System, Regression, End-to-End, Compatibility, Cross Browser, and GUI Testing.</li>
+                <li>Collaborated with Developers, Business Analyst, and Scrum Master.</li>
+            </ul>
+        </div>
+    </div>
+</section>
+
+<!-- Education -->
+<section>
+    <div class="container">
+        <h2>Education</h2>
+        <table class="edu-table">
+            <thead>
+                <tr><th>Qualification</th><th>Institution</th><th>Year</th></tr>
+            </thead>
+            <tbody>
+                <tr><td>MBA (IT)</td><td>Sinhgad Institute of Management, Pune</td><td>2018</td></tr>
+                <tr><td>BSc</td><td>Shri Shiv Chhatrapati College, Junnar</td><td>2014</td></tr>
+                <tr><td>Class 12th</td><td>Shri Shiv Chhatrapati College, Junnar</td><td>2010</td></tr>
+            </tbody>
+        </table>
+    </div>
+</section>
+
+<!-- Extracurricular -->
+<section>
+    <div class="container">
+        <h2>Beyond Work</h2>
+        <p>🏏 Captain of the winning Inter College Cricket Team</p>
+        <p>🏅 Executive Member of Sports Organizing Committee in college</p>
+        <p>🌍 Languages: English, Hindi & Marathi</p>
+    </div>
+</section>
+
+<footer>
+    <div class="container">
+        <p>© 2025 Prakash | Business Analyst Portfolio</p>
+    </div>
+</footer>
+
+</body>
+</html>
